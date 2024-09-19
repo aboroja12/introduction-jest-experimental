@@ -2,7 +2,7 @@ name: Pipeline with Jest Test
 on:
   push:
     branches:
-      - main
+      - master
 jobs:
   build:
     runs-on: ubuntu-22.04
